@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Tahoma, sans-serif;
+}
+/*header*/
+#section_normal_1 .container{
+    border-bottom: 4px solid #d9d9d9;
+    width: auto;
+    height: 80px;
+    background-color: #ffffff;
+
+}
+
+#section_normal_1 .sixteen.columns{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+.two-thirds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_style{
+    color: #cbcbcb;
+    padding-right: 16px;
+}
+.slow_fade.social_button {
+    padding: 0  3px;
+}
+/*section main_1*/
+#section_normal_4_2 .sixteen.columns{
+    width: auto;
+    height: 572px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section_normal_4_2 .eight {
+    padding: 0 20px;
+}
+.omega {
+    width: auto;
+    height: 413px;
+}
+.bold_text {
+    font-weight: bold;
+}
+.big_text.blue_text{
+    display: block;
+    font-size: 21px;
+    color: #2ea3c3;
+    margin: 5px 0 22px;
+}
+.big_title{
+    font-size: 46px;
+    color: #ffffff;
+    margin: 0;
+}
+.normal_text.light_gray {
+    color: #989898;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.pix_button.btn_normal.pix_button_flat {
+    display: block;
+    width: 180px;
+    height: 56px;
+    background-color: #2dc0e8;
+    color: #ffffff;
+    border-radius: 5px;
+    border-bottom: 4px solid #249aba;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+
+}
+#section_normal_4_2 .pix_button span {
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -60%);
+    font-size: 15px;
+}
+#section_normal_4_2 .ti-eye {
+    position: absolute;
+    font-size: 25px;
+    top: 40%;
+    transform: translate(110%, -40%);
+}
+/*section 3*/
+#section_normal_6 .container{
+    width: auto;
+    height: 388px;
+    background-color: #eeeeee;
+    border-bottom: 4px solid #d9d9d9;
+}
+.L1_style {
+    padding: 50px 0 24px;
+    font-size: 24px;
+    color: #696969;
+}
+.L2_style {
+    font-size: 16px;
+    color: #a9a9a9;
+}
+#section_normal_6 .L1_style, .L2_style {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section_normal_6 .stbox_alpha_omega {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section_normal_6 .container .stbox.alpha, .stbox.omega{
+    width: 574px;
+    height: 146px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 68px 13px 52px;
+    border-bottom: 4px solid rgb(221, 221, 221);
+}
+#section_normal_6 .stbox_alpha_omega .pix_builder_bg{
+    width: 114px;
+    height: 146px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stbox_alpha_omega .logo_style {
+    border-radius: 50%;
+}
+.stbox_alpha_omega .b_style {
+    margin-left: 444px;
+}
+
+.stbox_alpha_omega .txt_style {
+    width: 404px;
+    height: auto;
+    padding-left: 36px;
+    position: relative;
+}
+.txt_style .txt  {
+    width: 404px;
+    height: auto;
+    font-size: 16px;
+    color: #aeaeae;
+}
+ .stars_span {
+    display: block;
+    width: 260px;
+    height: auto;
+
+}
+ .env_st .pix_text {
+     position: absolute;
+     font-size: 16px;
+     color: #5aa4fc;
+     top: 50%;
+     left: 50%;
+    transform: translate(-65%, 125%);
+ }
+/*footer*/
+#section_agency_5 .container {
+    width: auto;
+    height: 564px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+.sixteen.columns.center_text {
+    text-align: center;
+}
+.f1_style {
+    padding: 76px 0 44px;
+    color: #5b9a68;
+    font-size: 22px;
+}
+.f2_style {
+    font-size: 15px;
+    color: #ababab;
+   margin: 0 515px 180px;
+}
+.second_link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -72%);
+    width: 320px;
+    height: 76px;
+    border: 3px solid #5b9a68;
+    border-radius: 5px;
+}
+.slow_fade {
+    text-align: center;
+    line-height: 76px;
+    text-decoration: none;
+    color: #5b9a68;
+    font-weight: bold;
+    font-size: 18px;
+}
+.rights_st {
+    font-size: 15px;
+    color: #ababab;
+    padding-bottom: 16px;
+}
+.pixfort_st {
+    color: #5b9a68;
+    font-size: 15px;
+    font-weight: bold;
+}
+.clearfix {
+    width: auto;
+    height: 42px;
+}
+.social_button img{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Tahoma, sans-serif;
+}
+/*header*/
+#section_header_2_dark .containerss{
+    width: auto;
+    height: 96px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav.navbar-nav.navbar-right{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.propClone, .propClone a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+.propClone.icon-item{
+    margin: 0 ;
+}
+.text_span.editContent{
+    color: #ffcc33;
+}
+.mlr-10{
+    margin: 0 10px;
+}
+/*section 1*/
+#section_pix_4 {
+    width: auto;
+    height: 884px;
+
+}
+.pix_video_div.section_video video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.mask{
+    position: absolute;
+    width: 100%;
+    height: 854px;
+    background-color: #000000;
+    opacity: 0.5;
+}
+.sixteen.columns.context_style{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(60%, -12%);
+}
+.title_style{
+    width: 896px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+.subtitle_style{
+    width: 512px;
+    font-size: 16px;
+    color: #ffffff;
+    white-space: normal;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0 228px 16px 96px;
+}
+.email_subscribe.pix_builder_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px;
+    width: 500px;
+    height: 66px;
+    border-radius: 5px;
+    background-color: #1c1716;
+    margin: 30px 0 0 96px;
+}
+#email_1{
+    width: 300px ;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#subscribe_btn_1 {
+    width: 150px;
+    height: 38px ;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #f1c232;
+    color: #ffffff;
+}
+.note_st{
+    width: 338px;
+    color: #ffffff;
+     text-align: center;
+    margin: 25px 0 0 184px;
+}
+/*/section 2/*/
+#section_university_5{
+    width: auto;
+    height: 700px;
+    background-color: #ffffff;
+}
+#section_university_5 .sixteen.columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.psingle_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 28px 0px;
+}
+.psingle_item .icon_st{
+    margin: 0 16px;
+}
+.text_st{
+    margin: 0 16px;
+}
+.title_st.editContent{
+    font-size: 24px;
+    color: #000000;
+    margin: 24px 0;
+}
+.subject_st.editContent{
+    width: 350px;
+    font-size: 15px;
+    color: #b6b6b6;
+    white-space: normal;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding-bottom: 40px;
+}
+.six.columns.omega{
+    width: 420px;
+    height: 606px;
+    background-color: #ebeaea;
+    border-radius: 5px;
+}
+.title-style {
+    color: #000000;
+    font-size: 25px;
+    margin: 56px 0 16px 16px;
+}
+.text-style{
+    font-size: 16px;
+    color: #ababab;
+    margin: 16px 0 20px 16px;
+}
+#contact_form .pix_text{
+    width: 378px;
+    height: 56px;
+    background-color: #ffffff;
+    font-size: 16px;
+    border: 2px solid #cccccc;
+    margin: 12px 0 12px 16px;
+    border-radius: 5px;
+}
+#submit_btn_6.submit_btn.pix_text{
+    background-color: #7cc576;
+    color: #ffffff;
+    border: 2px solid #7cc576;
+}
+.sixteen.columns.bg_foot{
+    width: auto;
+    height: 88px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rights_st{
+    color: #a4a4a4;
+}
+.pixfort_st{
+    color: #674397;
+    font-weight: bold;
+}
+.socbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.likes_st .editContent .pix_text{
+    color: #a4a4a4;
+}
+.soc_icons.pix_builder_bg .bottom-icons{
+    width: 122px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #e9e9e9;
+    margin-left: 15px;
+    padding-left: 0;
+}
+.pi.pixicon-twitter2, .pi.pixicon-facebook2, .pi.pixicon-instagram{
+    margin: 0;
+}
+.pd-l-10{
+    margin: 0 10px;
+}
