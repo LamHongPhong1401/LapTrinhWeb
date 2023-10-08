@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Chào Ngẫu Nhiên</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<div id="greeting">Loading...</div>
+
+<script>
+    // Danh sách các lời chào
+    var greetings = [
+        "Xin chào!",
+        "Chào bạn!",
+        "Hi there!",
+        "Xin chào mừng bạn đến với trang web của chúng tôi!",
+        "Chào buổi sáng!",
+        "Chào buổi chiều!",
+        "Chào buổi tối!"
+    ];
+
+    // Chọn một lời chào ngẫu nhiên
+    var randomIndex = Math.floor(Math.random() * greetings.length);
+    var randomGreeting = greetings[randomIndex];
+
+    // Hiển thị lời chào lên trang web
+    var greetingElement = document.getElementById('greeting');
+    greetingElement.textContent = randomGreeting;
+</script>
+</body>
+</html>

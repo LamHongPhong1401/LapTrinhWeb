@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thay Đổi Màu Nền</title>
+    <style>
+        body {
+            transition: background-color 0.5s;
+            text-align: center;
+            padding: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Chọn một màu để thay đổi màu nền</h1>
+<div id="container">
+    <button style="background-color: red;" onclick="changeBackgroundColor('red')">Red</button>
+    <button style="background-color: green;" onclick="changeBackgroundColor('green')">Green</button>
+    <button style="background-color: blue;" onclick="changeBackgroundColor('blue')">Blue</button>
+    <button style="background-color: yellow;" onclick="changeBackgroundColor('yellow')">Yellow</button>
+    <button style="background-color: white;" onclick="changeBackgroundColor('white')">White</button>
+    <button style="background-color: orange;" onclick="changeBackgroundColor('orange')">Orange</button>
+</div>
+
+<script>
+    function changeBackgroundColor(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+</body>
+</html>

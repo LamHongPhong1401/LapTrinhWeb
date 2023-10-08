@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đếm số lần xuất hiện của B trong A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        textarea, input {
+            width: 94%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>Đếm số lần xuất hiện của B trong A</h1>
+<textarea id="textA" placeholder="Nhập đoạn văn (A)"></textarea>
+<input type="text" id="textB" placeholder="Nhập dòng (B)">
+<button onclick="countBInA()">Count</button>
+<p id="result"></p>
+
+<script>
+    function countBInA() {
+        var textA = document.getElementById('textA').value;
+        var textB = document.getElementById('textB').value;
+        // tim kiem textB trong textA thong qua regular expression (RegExp()), g: global
+        var regex = new RegExp(textB, 'g');
+        var matches = textA.match(regex);// matches return a arr
+
+        if (matches) {
+            const count = matches.length;
+            document.getElementById('result').textContent = `Số lần xuất hiện của '${textB}' trong '${textA}': ${count}`;
+        } else {
+            document.getElementById('result').textContent = `'${textB}' không xuất hiện trong '${textA}'`;
+        }
+    }
+</script>
+</body>
+</html>
